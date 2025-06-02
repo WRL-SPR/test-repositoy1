@@ -195,7 +195,7 @@ a {
   padding: 55px 22px;
   display: grid;
   grid-template-columns: 264px 127px 125px;
-  gap: 10px;
+  gap: 50px;
   position: relative;
   /* 추가: 중앙 정렬 보장 */
   left: 0;
@@ -205,7 +205,7 @@ a {
 /* 액세서리와 엔터테인먼트 메뉴 2단 구조 */
 .globalnav-item-accessories .globalnav-flyout-content,
 .globalnav-item-entertainment .globalnav-flyout-content {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 264px 127px;
   gap: 10px;
   padding-left: 120px;
   padding-right: 120px;
@@ -1097,8 +1097,8 @@ white {
 }
 
 .watch-btn:hover {
+  color: #ffffff;
   background: #333336;
-  color: #ffffff; 
   transform: translateY(-1px);
   box-shadow: 0 6px 20px rgba(29, 29, 31, 0.3);
 }
