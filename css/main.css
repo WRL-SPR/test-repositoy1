@@ -1098,6 +1098,7 @@ white {
 
 .watch-btn:hover {
   background: #333336;
+  color: #ffffff; 
   transform: translateY(-1px);
   box-shadow: 0 6px 20px rgba(29, 29, 31, 0.3);
 }
